@@ -1,0 +1,17 @@
+{
+	"name": "Juan Cruz Pereyra Litardo",
+	"profession": "Analista en computación",
+	"about_me": "Soy analista en computación y actualmente trabajo como Front-End developer en Globant. Me gusta programar y aprender sobre nuevas tecnologias.",
+	"skills": [
+		"Javascript",
+		"NodeJs",
+		"ReactJS",
+		"VueJS",
+		"HTML",
+		"CSS",
+		"Python",
+		"Django",
+		"MySQL",
+		"MongoDB"
+	]
+}
