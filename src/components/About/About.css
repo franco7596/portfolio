@@ -1,132 +1,139 @@
 .about {
-	display: flex;
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-	height: 75vh;
-	background: #1c1b20;
-	font-family: "Roboto", sans-serif;
-	z-index: 1000;
-	position: relative;
-	color: #ffffff;
+  width: 100%;
+  height: auto;
+  background: #1c1b20;
+  font-family: "Roboto", sans-serif;
+  z-index: 1000;
+  position: relative;
+  color: #ffffff;
 }
 
 .about-polygon {
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 30%;
-	clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
-	background: #eeeeee;
-	transform-origin: left;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  height: 40%;
+  width: 100%;
+  transform-origin: bottom;
+  background: #eeeeee;
 }
 
 .about-container {
-	display: flex;
-	width: 75%;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .description {
-	width: 650px;
-	font-family: "Monserrat-regular";
+  font-family: "Monserrat-regular";
+  background-color: #1c1b20;
 }
 
 .container-photo {
-	width: 400px;
+  width: 375px;
 }
 
 .about-profile-photo {
-	width: 100%;
-	border: 3rem solid #1c1b20;
-	border-radius: 50%;
+  width: 100%;
+  border: 3rem solid #1c1b20;
+  border-radius: 50%;
 }
 
 .about-title {
-	position: relative;
-	padding-bottom: 2rem;
-}
-
-.about-title::after {
-	content: "";
-	position: absolute;
-	background-color: #f0d500;
-	width: 10%;
-	height: 5px;
-	bottom: 0;
-	left: 0;
+  position: relative;
+  padding-bottom: 2rem;
+  text-align: center;
+  transform-origin: bottom;
 }
 
 .about-content {
-	font-size: 1.8rem;
-	margin: 2rem;
-	font-family: "Monserrat-regular";
+  font-size: 1.5rem;
+  margin: 2rem;
+  font-family: "Monserrat-regular";
 }
-
+p.about-content {
+  font-size: 2rem;
+  font-family: "Monserrat-regular";
+  font-weight: bolder;
+}
+.about-pill-zone {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+}
 .about-pills {
-	display: inline-block;
-	margin: 1rem;
-	box-sizing: border-box;
-	font-family: "Monserrat-semiBold";
-	font-size: 1.5rem;
-	background-color: #403d4b;
-	padding: 1rem;
-	border-radius: 500px;
-	width: 10rem;
-	text-align: center;
-	user-select: none;
+  margin: 1rem;
+  box-sizing: border-box;
+  font-family: "Monserrat-semiBold";
+  font-size: 1.5rem;
+  background-color: #403d4b;
+  padding: 1rem;
+  border-radius: 500px;
+  max-width: 20rem;
+  text-align: center;
+  user-select: none;
 }
-
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
 .about-buttons button {
-	margin: 1rem;
+  margin: 1rem;
+}
+@media (min-width: 550px) {
+  .about {
+    height: auto;
+    width: 100%;
+  }
+  .about-polygon {
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    height: 40%;
+    width: 100%;
+    transform-origin: bottom;
+  }
+
+  .description {
+    width: 80%;
+  }
+
+  .about-title {
+    text-align: center;
+    transform-origin: bottom;
+  }
+
+  .about-pill-zone {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-@media screen and (max-width: 1400px) {
-	.about {
-		height: auto;
-		width: 100%;
-	}
-
-	.about-container {
-		margin: 7rem 0;
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-	}
-
-	.about-polygon {
-		clip-path: polygon(50% 100%, 0 0, 100% 0);
-		height: 40%;
-		width: 100%;
-		transform-origin: bottom;
-	}
-
-	.description {
-		width: 80%;
-	}
-
-	.about-title {
-		text-align: center;
-		transform-origin: bottom;
-	}
-	.about-title::after {
-		left: 45%;
-	}
-}
-
-@media screen and (max-width: 550px) {
-	.about-polygon {
-		height: 35%;
-	}
-
-	.container-photo {
-		width: 375px;
-	}
-
-	.about-content {
-		font-size: 1.4rem;
-	}
+@media (min-width: 1400px) {
+  .about-polygon {
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+    height: 100%;
+    width: 30%;
+    transform-origin: left;
+  }
+  .about-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-photo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .description {
+    width: 60%;
+  }
+  .about-profile-photo {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .about-pill-zone {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

@@ -1,0 +1,45 @@
+.work-experience {
+	margin-top: 50px;
+}
+.experience-container {
+	display: grid;
+	grid-template-columns: 30px 1fr;
+}
+.experience-data {
+	padding-left: 30px;
+}
+.experience-time-line {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.experience-circle {
+	background-color: #ffff;
+	border-radius: 100%;
+	height: 0.8rem;
+	width: 0.8rem;
+	margin: 6px 0 10px 0;
+}
+.experience-line {
+	background-color: #ffff;
+	height: 100%;
+	width: 3px;
+}
+
+.experience-data h3 {
+	font-size: 2rem;
+	margin: 0 2rem 2rem 2rem;
+	font-family: "Monserrat-regular";
+	font-weight: bolder;
+}
+.experience-data ul {
+	list-style: none;
+}
+.experience-data ul li {
+	font-size: 1.6rem;
+	margin: 2rem;
+	font-family: "Monserrat-regular";
+	font-weight: lighter;
+}

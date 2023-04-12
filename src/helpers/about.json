@@ -1,17 +1,58 @@
 {
-	"name": "Juan Cruz Pereyra Litardo",
-	"profession": "Analista en computación",
-	"about_me": "Soy analista en computación y actualmente trabajo como Front-End developer en Globant. Me gusta programar y aprender sobre nuevas tecnologias.",
+	"name": "Franco Nicolás Ribotta",
+	"profession": "Software Engineer",
+	"about_me": "My name is Franco Nicolás Ribotta. I am a Software Engineer graduated from U.T.N. (Universidad Tecnológica Nacional Argentina). At the moment, I am working as a Full-Stack developer where I am in charge of managing the development and design team, coordinating appointments with clients, and developing new features using React for the front-end and Node.js for the back-end.",
+	"work_experience": [
+		{
+			"company": "Trendit",
+			"date_start": "09/01/2020",
+			"date_end": "12/01/2021",
+			"position": "Jr Adv Full-Stack Developer",
+			"activities": [
+				"Developed the Front-End using React (Typescript), axios, Redux (Redux, Redux-Thunk), HTML 5, CSS 3, Bootstrap, Tailwind.",
+				"Utilized Node.js (Javascript), Express, JWT and PostgresSQL for the Back-End.",
+				"Utilized Git, GitHub, PostMan, PgAdmin.",
+				"Utilized Agile methodologies, Scrum."
+			]
+		},
+		{
+			"company": "Trendit",
+			"date_start": "12/01/2021",
+			"date_end": "Present",
+			"position": "Ssr Full-Stack Developer",
+			"activities": [
+				"Administered the development and design team, ensuring projects were delivered on time and to a high standard.",
+				"Managed the Github repository, controlled pull requests, and implemented Github actions for CD/CI.",
+				"Coordinated meetings with clients to discuss project requirements and ensure they were satisfied with the progress.",
+				"Developed new features and functionality using React.js, redux, redux-saga, react-router, axios, boostrap, and material ui for the Front-End.",
+				"Utilized Node.js, Express, JWT, Elasticsearch for the Back-End.",
+				"Utilized Git, GitHub, PostMan, Kibana.",
+				"Utilized Agile methodologies, Scrum."
+			]
+		}
+	],
 	"skills": [
-		"Javascript",
-		"NodeJs",
-		"ReactJS",
-		"VueJS",
+		"JavaScript",
+		"TypeScript",
+		"React",
+		"Axios",
+		"Redux",
+		"Redux-Saga",
+		"Redux-thunk",
+		"React Testing Library",
+		"Jest",
+		"Node.js",
+		"Express",
+		"JWT",
 		"HTML",
 		"CSS",
+		"Bootstrap",
+		"Material UI",
+		"Tailwind",
 		"Python",
-		"Django",
-		"MySQL",
-		"MongoDB"
+		"Scrapy",
+		"Selenium",
+		"PostgreSQL",
+		"ElasticSearch"
 	]
 }
