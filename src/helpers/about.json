@@ -53,6 +53,9 @@
 		"Scrapy",
 		"Selenium",
 		"PostgreSQL",
-		"ElasticSearch"
-	]
+		"ElasticSearch",
+		"Docker"
+	],
+	"git": "https://github.com/franco7596",
+	"linkedin": "https://www.linkedin.com/in/franco-ribotta-274a211b0/"
 }

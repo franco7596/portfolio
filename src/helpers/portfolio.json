@@ -3,10 +3,7 @@
 		"name": "ToDo App [Vue CBA]",
 		"description": "ToDo App realizada en la primera workshop de Vue Córdoba",
 		"tecnologies": ["Vue.js", "Vue Router", "Firebase", "NES.css"],
-		"images": [
-			"https://i.ibb.co/Sd4W9Qh/Captura-de-pantalla-2020-07-31-17-14-47.png",
-			"https://i.ibb.co/NrD3qSq/Captura-de-pantalla-2020-07-31-17-12-17.png"
-		],
+		"images": ["https://i.ibb.co/m5hBpKh/imagen-1.png"],
 		"repo": "https://github.com/juan3492/ToDoApp-VueCBA",
 		"link": "https://juan3492.github.io/ToDoApp-VueCBA/"
 	},

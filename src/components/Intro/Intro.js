@@ -20,7 +20,7 @@ export default function Intro() {
 	};
 
 	useEffect(() => {
-		TweenMax.fromTo(heroClipped.current, 1, { scaleX: 0 }, { scaleX: 1 });
+		// TweenMax.fromTo(heroClipped.current, 1, { scaleX: 0 }, { scaleX: 1 });
 		TweenMax.fromTo(
 			logo.current,
 			1,
@@ -68,7 +68,7 @@ export default function Intro() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<a href="/CV.pdf" className="nav-link">
+							<a href="/CV.pdf" className="nav-link" target="_blank">
 								My CV
 							</a>
 						</li>
@@ -81,7 +81,7 @@ export default function Intro() {
 								smooth={true}
 								isDynamic={true}
 							>
-								<h3 className="nav-link">Portfolio</h3>
+								<h3 className="nav-link">My Projects</h3>
 							</Link>
 						</li>
 					</div>

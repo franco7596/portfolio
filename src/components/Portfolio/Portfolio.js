@@ -1,11 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { useIntersection } from "react-use";
 import "./Portfolio.css";
-import axios from "axios";
 import { TweenMax } from "gsap";
 import PortfolioCard from "./PortfolioCard";
 
-const Portfolio = ({ informationPortfolio }) => {
+export default function Portfolio({ informationPortfolio }) {
 	const polygon = useRef(null);
 	const textbox = useRef(null);
 	const [wasAnimated, setWasAnimated] = useState(false);
@@ -42,9 +41,9 @@ const Portfolio = ({ informationPortfolio }) => {
 			<div className="portfolio-intro">
 				<div ref={polygon} className="portfolio-intro-polygon">
 					<div ref={textbox} className="portfolio-intro-textbox">
-						<h1 className="portfolio-title main-heading">Mis proyectos</h1>
+						<h1 className="portfolio-title main-heading">My Projects</h1>
 						<p className="portfolio-description sub-heading">
-							Aca iré mostrando mis proyectos personales
+							Here we are going to see my projects.
 						</p>
 					</div>
 				</div>
@@ -54,6 +53,7 @@ const Portfolio = ({ informationPortfolio }) => {
 					{informationPortfolio &&
 						informationPortfolio.map((project, index) => (
 							<PortfolioCard
+								key={index}
 								id={index}
 								project={project}
 								timeSlide={randomTimeSlide()}
@@ -63,6 +63,4 @@ const Portfolio = ({ informationPortfolio }) => {
 			</div>
 		</div>
 	);
-};
-
-export default Portfolio;
+}
