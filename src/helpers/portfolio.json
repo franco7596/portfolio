@@ -27,7 +27,7 @@
 	{
 		"name": "Valorant",
 		"description": "Valorant website displaying heroes information and allowing users to create their own team.",
-		"tecnologies": ["React.js", "JavaScript", "React-Router","Redux-Saga","Responsive design"],
+		"tecnologies": ["React.js", "JavaScript", "React-Router","Redux-Saga","Axios","Responsive design"],
 		"images": [
 			"https://i.ibb.co/xGWWZbf/valorant5.png",
 			"https://i.ibb.co/8nyTfqC/valorant4.png",
@@ -53,8 +53,8 @@
 	},
 	{
 		"name": "Scope",
-		"description": "A website collecting product information from different webpages to compare prices and obtain the best deal.",
-		"tecnologies": ["React.js","JavaScript", "Node.js","Scrapy","JWT","AWS","Responsive design"],
+		"description": "A website collecting product information from different webpages to obtain the best deal.",
+		"tecnologies": ["React.js","JavaScript", "Node.js","Scrapy","ElasticSearch","JWT","AWS","Responsive design"],
 		"images": [
 			"https://i.ibb.co/PQnf9Yf/scope3.png",
 			"https://i.ibb.co/2MT818w/scope4.png",
@@ -66,7 +66,7 @@
 	{
 		"name": "Domum",
 		"description": "A website for managing real estate properties.",
-		"tecnologies": ["React.js","TypeScript", "Node.js","JWT","AWS","Responsive design"],
+		"tecnologies": ["React.js","TypeScript", "Node.js", "PostgreSQL","JWT","AWS","Responsive design"],
 		"images": [
 			"https://i.ibb.co/Sw8Lx90/domum1.png",
 			"https://i.ibb.co/26zN2mQ/domum2.png",
