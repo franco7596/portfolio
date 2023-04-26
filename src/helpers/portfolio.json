@@ -1,86 +1,78 @@
 [
 	{
-		"name": "ToDo App [Vue CBA]",
-		"description": "ToDo App realizada en la primera workshop de Vue Córdoba",
-		"tecnologies": ["Vue.js", "Vue Router", "Firebase", "NES.css"],
-		"images": ["https://i.ibb.co/m5hBpKh/imagen-1.png"],
-		"repo": "https://github.com/juan3492/ToDoApp-VueCBA",
-		"link": "https://juan3492.github.io/ToDoApp-VueCBA/"
+		"name": "NFL Front-End",
+		"description": "This project is a website providing statistics and information on NFL teams and players.",
+		"tecnologies": ["React.js", "TypeScript", "Axios","Redux-Saga","React Testing Library", "Jest", "Responsive design"],
+		"images": ["https://i.ibb.co/bsLf9zY/nfl1.png","https://i.ibb.co/x1bWKW9/nfl4.png","https://i.ibb.co/K747LQ9/nfl5.png"],
+		"repo": "https://github.com/franco7596/NFL-project-frontend",
+		"link": "https://ribotta-franco-nfl.vercel.app/"
+	},
+	
+	{
+		"name": "NFL Back-End",
+		"description": "This project is a website providing statistics and information on NFL teams and players.",
+		"tecnologies": ["Node.js", "JavaScript", "Express", "JWT","PostgreSQL","AWS"],
+		"images": ["https://i.ibb.co/kBLf56v/nfl3.png","https://i.ibb.co/vL6QbJD/nfl2.png","https://i.ibb.co/BnHSXCr/nfl6.png"],
+		"repo": "https://github.com/franco7596/NFL-project-backend",
+		"link": "https://ribotta-franco-nfl.vercel.app/"
 	},
 	{
-		"name": "PokeReact",
-		"description": "Aplicación que analiza los equipos de Pokemon, se usa la API pokeapi.co",
-		"tecnologies": ["React", "Redux", "Manejo de API", "Bootstrap"],
-		"images": [
-			"https://i.ibb.co/zQ6j0Np/Captura-de-pantalla-2020-07-31-17-39-58.png",
-			"https://i.ibb.co/b5JL5dV/Captura-de-pantalla-2020-07-31-17-47-14.png",
-			"https://i.ibb.co/j5DLNP3/Captura-de-pantalla-2020-07-31-17-47-41.png",
-			"https://i.ibb.co/61Xt9N2/Captura-de-pantalla-2020-07-31-17-47-53.png"
-		],
-		"repo": "https://github.com/juan3492/pokemonreact",
-		"link": "https://juan3492.github.io/pokemonreact/"
+		"name": "NFL Scrapy",
+		"description": "This project is a website providing statistics and information on NFL teams and players.",
+		"tecnologies": ["Scrapy", "Python", "ScrapyRT","AWS"],
+		"images": ["https://i.ibb.co/tcQ2hR5/nfl8.png","https://i.ibb.co/V9j4NRD/nfl7.png"],
+		"repo": "https://github.com/franco7596/NFL-project-scrapy",
+		"link": "https://ribotta-franco-nfl.vercel.app/"
 	},
 	{
-		"name": "Intro component with sign up form",
-		"description": "Formulario desarrollado a partir de uno challenges de Frontend Mentor",
-		"tecnologies": ["HTML", "CSS", "Diseño responsivo"],
+		"name": "Valorant",
+		"description": "Valorant website displaying heroes information and allowing users to create their own team.",
+		"tecnologies": ["React.js", "JavaScript", "React-Router","Redux-Saga","Responsive design"],
 		"images": [
-			"https://i.ibb.co/MDpMRWY/Captura-de-pantalla-2020-07-31-20-01-12.png",
-			"https://i.ibb.co/L04ZbZv/Captura-de-pantalla-2020-07-31-20-02-28.png"
+			"https://i.ibb.co/xGWWZbf/valorant5.png",
+			"https://i.ibb.co/8nyTfqC/valorant4.png",
+			"https://i.ibb.co/chMzPtv/valorant3.png",
+			"https://i.ibb.co/TcjgZCd/valorant1.png",
+			"https://i.ibb.co/Ws8sSh6/valorant2.png"
 		],
-		"repo": "https://github.com/juan3492/Frontend-Mentor---Intro-component-with-sign-up-form",
+		"repo": "https://github.com/franco7596/valorant-project",
+		"link": "https://ribotta-franco-valorant.vercel.app/"
+	},
+	{
+		"name": "My portfolio",
+		"description": "The app you are currently using.",
+		"tecnologies": ["React.js", "JavaScript", "HTML", "CSS", "Responsive design"],
+		"images": [
+			"https://i.ibb.co/rkJtGn4/pf1.png",
+			"https://i.ibb.co/Lnqmbhd/pf2.png",
+			"https://i.ibb.co/w6tLpFq/pf3.png",
+			"https://i.ibb.co/KDYxw2y/pf4.png"
+		],
+		"repo": "https://github.com/franco7596/portfolio",
 		"link": "https://juan3492.github.io/Frontend-Mentor---Intro-component-with-sign-up-form/index"
 	},
 	{
-		"name": "Huddle landing page with alternating feature blocks",
-		"description": "Landing hecha a partir de un challenge de Frontend Mentor",
-		"tecnologies": ["HTML", "CSS", "Diseño responsivo"],
+		"name": "Scope",
+		"description": "A website collecting product information from different webpages to compare prices and obtain the best deal.",
+		"tecnologies": ["React.js","JavaScript", "Node.js","Scrapy","JWT","AWS","Responsive design"],
 		"images": [
-			"https://i.ibb.co/4RWG4Zy/Captura-de-pantalla-2020-07-31-20-06-29.png",
-			"https://i.ibb.co/pw95DgJ/Captura-de-pantalla-2020-07-31-20-07-56.png",
-			"https://i.ibb.co/Y2C7wHB/Captura-de-pantalla-2020-07-31-20-08-31.png",
-			"https://i.ibb.co/6gvwftd/Captura-de-pantalla-2020-07-31-20-09-02.png",
-			"https://i.ibb.co/DpQnsbP/Captura-de-pantalla-2020-07-31-20-09-09.png"
+			"https://i.ibb.co/PQnf9Yf/scope3.png",
+			"https://i.ibb.co/2MT818w/scope4.png",
+			"https://i.ibb.co/NSM7rNF/scope1.png",
+			"https://i.ibb.co/82frvpy/scope2.png"
 		],
-		"repo": "https://github.com/juan3492/Frontend-Mentor---Huddle-landing-page-with-alternating-feature-blocks",
-		"link": "https://juan3492.github.io/Frontend-Mentor---Huddle-landing-page-with-alternating-feature-blocks/"
+		"link": "http://front.trenditsmart.com/"
 	},
 	{
-		"name": "REST Countries API with color theme switcher",
-		"description": "Aplicacion hecha a partir de uno de los challenges de Front End Mentor, se usa la Api restcountries.eu",
-		"tecnologies": ["Vue", "Vue Router", "HTML", "CSS", "Diseño responsivo"],
+		"name": "Domum",
+		"description": "A website for managing real estate properties.",
+		"tecnologies": ["React.js","TypeScript", "Node.js","JWT","AWS","Responsive design"],
 		"images": [
-			"https://i.ibb.co/p4RgL4J/Captura-de-pantalla-2020-07-31-20-25-05.png",
-			"https://i.ibb.co/Wcx2N0H/Captura-de-pantalla-2020-07-31-20-26-07.png",
-			"https://i.ibb.co/Wcx2N0H/Captura-de-pantalla-2020-07-31-20-26-07.png",
-			"https://i.ibb.co/wL83yGh/Captura-de-pantalla-2020-07-31-20-27-01.png",
-			"https://i.ibb.co/G25CT6f/Captura-de-pantalla-2020-07-31-20-28-20.png",
-			"https://i.ibb.co/TtFhKHk/Captura-de-pantalla-2020-07-31-20-28-32.png",
-			"https://i.ibb.co/pWg5Zk8/Captura-de-pantalla-2020-07-31-20-29-32.png",
-			"https://i.ibb.co/hsrHqjH/Captura-de-pantalla-2020-07-31-20-29-14.png"
+			"https://i.ibb.co/Sw8Lx90/domum1.png",
+			"https://i.ibb.co/26zN2mQ/domum2.png",
+			"https://i.ibb.co/4mPh8wh/domum3.png",
+			"https://i.ibb.co/DRtkfRK/domum4.png"
 		],
-		"repo": "https://github.com/juan3492/Frontend-Mentor---REST-Countries-API-with-color-theme-switcher",
-		"link": "https://juan3492.github.io/Frontend-Mentor---REST-Countries-API-with-color-theme-switcher/"
-	},
-	{
-		"name": "Mi Portfolio [React CBA]",
-		"description": "Esta app en la que estás ahora mismo. El backend fue desarrollado siguiendo el tutorial de React Córdoba.",
-		"tecnologies": [
-			"React",
-			"NodeJS",
-			"ExpressJS",
-			"HTML",
-			"GSAP",
-			"CSS",
-			"Diseño responsivo"
-		],
-		"images": [
-			"https://i.ibb.co/qC2MZX0/Captura-de-pantalla-2020-08-13-14-10-39.png",
-			"https://i.ibb.co/F31bKGt/Captura-de-pantalla-2020-08-13-14-10-45.png",
-			"https://i.ibb.co/fvcsBMb/Captura-de-pantalla-2020-08-13-14-10-50.png",
-			"https://i.ibb.co/rdtWq9M/Captura-de-pantalla-2020-08-13-14-10-57.png"
-		],
-		"repo": "https://github.com/juan3492/portfolio-frontend",
-		"link": "https://juan-cruz-portfolio.vercel.app/"
+		"link": "https://domum.netlify.app/auth/login"
 	}
 ]
