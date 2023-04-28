@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Portfolio
+Welcome to the repository of my project! This project was developed using React.js to showcase my programming skills. It is a portfolio that displays my professional information, including my work experience and the projects I have been working on. Additionally, the portfolio was designed to be fully responsive, which means it can adapt to any screen size or device. This ensures that anyone viewing my portfolio on a desktop, tablet, or mobile device will have a seamless experience. With a responsive design, I can showcase my work to a wider audience and make it accessible to anyone, anywhere. The page is deployed on Vercel using my own personal domain, which is "[www.ribotta-franco.com](https://www.ribotta-franco.com/)". I hope you enjoy exploring my portfolio, and thank you for visiting this repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Video
 
-## Available Scripts
+![Portfolio](https://user-images.githubusercontent.com/54074366/235232908-02abd360-d6ee-46a3-bfb1-afa24697d393.gif)
 
-In the project directory, you can run:
+## Running this project.
 
-### `npm start`
+- Open Git terminal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Change the current working directory to the location where you want to clone the directory. cd project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Type git clone followed by the project URL.
 
-### `npm test`
+- git clone https://github.com/franco7596/portfolio.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Press Enter to create your local clone.
 
-### `npm run build`
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Install all necessary dependencies inside the project directory using npm install.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Finally, start the project with npm start, which will launch the Expo dashboard in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## The link to the webpage.:
 
-### `npm run eject`
+[Portfolio](https://www.ribotta-franco.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My social media:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [GitHub](https://github.com/franco7596)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Linkedin](https://www.linkedin.com/in/franco-ribotta-274a211b0/)
